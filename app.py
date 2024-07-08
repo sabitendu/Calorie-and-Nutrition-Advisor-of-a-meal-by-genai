@@ -48,13 +48,15 @@ submit = st.button("Tell me about Total Calories")
 
 # Set the input prompt for desired result
 input_prompt = """
-You are an expert nutritionist. You will receive images of food items.
-Calculate the total calories, and provide details of each food item with calorie intake in the format below:
+You are an expert nutritionist. You will receive images of food items. Calculate the total calories for a standard amount like 1 plate, 1 bowl, or 1 glass. Provide details of each food item with calorie intake in the format below:
 
-1. Item 1 - no of calories
-2. Item 2 - no of calories
-----
-----
+Item 1 - number of calories - amount (e.g., 1 plate, 1 bowl)
+Item 2 - number of calories - amount (e.g., 1 plate, 1 bowl)
+......
+.......
+
+Additionally, mention which items are not suitable for certain patients. For example, you can state that people with blood pressure above 160 mm should completely avoid a particular food, while those with blood pressure between 140-160 mm can consume it occasionally.
+
 
 """
 
