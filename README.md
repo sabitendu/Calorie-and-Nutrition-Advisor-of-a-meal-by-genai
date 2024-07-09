@@ -14,4 +14,5 @@ Streamlit Frontend: User-friendly interface for uploading images and viewing res
 Getting Started
 ## Prerequisites
 Python 3.8 or higher
+
 Google API Key with access to Generative AI services
